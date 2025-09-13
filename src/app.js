@@ -11,10 +11,12 @@ app.use(express.static("public"));
 
 // Imports routers
 import roomRouter from "./router/room.routers.js";
+import adminRouter from "./router/admin.router.js"
 
 // routers middlewares
 
 app.use("/api/v1/room", roomRouter);
+app.use("/api/v1/admin", adminRouter);
 
 
 

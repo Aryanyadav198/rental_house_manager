@@ -63,4 +63,5 @@ const getAllRoom = asyncHandler(async (req,res)=>{
 
 });
 
+
 export  {createRoom,getAllRoom} ;
