@@ -1,5 +1,10 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 const roomSchema = new mongoose.Schema({
+    ownerId: {
+        // type : mongoose.Schema.ObjectId,
+        // ref:"User"
+        type:String
+    },
     roomNumber: {
         type: Number,
         required: true
