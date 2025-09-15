@@ -65,4 +65,5 @@ const registerAdmin = asyncHandler(async (req , res )=>{
 
 
 
+
 export {registerAdmin}
